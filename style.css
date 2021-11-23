@@ -27,7 +27,7 @@ body {
   display: grid;
   gap: 60px;
   justify-items: center;
-  margin-top: 60px;
+
 }
 
 img {
@@ -185,7 +185,7 @@ p {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .conteudo {
     grid-template-columns: 1fr;
   }
@@ -208,10 +208,10 @@ p {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   body {
-    gap: 30px;
-    margin-top: 40px;
+    gap: 10px;
+    margin-top: 10px;
   }
 
   .header {
@@ -220,7 +220,11 @@ p {
 
   .introducao {
     justify-items: center;
-    text-align: center;
+    text-align: left;
+  }
+
+  .introducao p {
+    font-size: 1rem;
   }
 
   .menu {
@@ -230,4 +234,17 @@ p {
     text-align: center;
     gap: 20px;
   }
+
+  .subtitulo {
+    font-size: 2rem;
+  }
+
+  .vantagens p {
+    font-size: 1rem;
+  }
+
+  .rodape p {
+    font-size: 1rem;
+  }
+
 }
