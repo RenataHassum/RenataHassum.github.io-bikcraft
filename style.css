@@ -185,7 +185,7 @@ p {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .conteudo {
     grid-template-columns: 1fr;
   }
@@ -208,7 +208,7 @@ p {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   body {
     gap: 30px;
     margin-top: 40px;
