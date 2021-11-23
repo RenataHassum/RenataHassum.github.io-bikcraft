@@ -27,6 +27,7 @@ body {
   gap: 60px;
   justify-items: center;
   margin-top: 60px;
+  margin: 0 auto;
 }
 
 img {
@@ -57,6 +58,7 @@ p {
 }
 
 .header {
+  padding-top: 30px;
   display: grid;
   justify-items: center;
   gap: 60px;
@@ -228,4 +230,5 @@ p {
     text-align: center;
     gap: 20px;
   }
+
 }
