@@ -201,10 +201,10 @@ p {
   .introducao-cover::before {
     content: "";
     width: 4px;
-    height: 3.75rem;
+    height: 2rem;
     background: var(--cor-primaria);
     position: absolute;
-    margin: -30px 30px;
+    margin: -15px 30px;
   }
 }
 
